@@ -112,6 +112,7 @@ export default function EditRemedy({navigation}){
 
         onSubmit: async (values) => {          
             try{
+                setSubmitting(true);
                 const userId = state.userId;
                 await api.post('/medicamento/update', values, { headers:{
                     authorization: userId
