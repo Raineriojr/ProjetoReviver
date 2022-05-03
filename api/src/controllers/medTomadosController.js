@@ -1,4 +1,5 @@
 const connection = require('../database/connection');
+const moment = require('moment');
 
 module.exports = {
     async create(req, res){
@@ -7,7 +8,9 @@ module.exports = {
         let date = new Date().toLocaleDateString();
         
         function convertDate(e){
-            let time = new Date().toLocaleTimeString();
+            //let time = new Date().toLocaleTimeString();
+
+            let time = moment().format("HH:mm:ss")
 
             const dia = e.split('/')[0];
             const mes = e.split('/')[1];
