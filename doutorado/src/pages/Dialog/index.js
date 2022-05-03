@@ -47,8 +47,8 @@ export default function RemedyDialog({ data, visible, setVisible }) {
       console.log(error.message);
 
     } finally {
-        setLoading(false)
         setVisible(false)
+        setLoading(false)
     }
   }
 
@@ -77,8 +77,6 @@ export default function RemedyDialog({ data, visible, setVisible }) {
             }
           })
         }
-        
-        
       })
     } catch (error) {
       console.log(error.message);

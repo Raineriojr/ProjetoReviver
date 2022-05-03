@@ -62,7 +62,7 @@ export default function EditRemedy({navigation}){
 //Estados dos selects
     const [ frequencia, setFrequencia ] = useState({selected: routeData.frequencia});
     const [ receita, setReceita ] = useState({selected: routeData.receita});
-    const [ duracao, setDuracao ] = useState({selected: routeData.duracao});
+    const [ duracao, setDuracao ] = useState({selected: ''});
     const [ instrucao, setInstrucao ] = useState({selected: routeData.instrucao});
 //MUDA COR DE INSTRUCAO QUANDO SELECIONADO
     const [ colorInstrucao, setColorInstrucao ] = useState('#7B7B7B');
