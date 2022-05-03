@@ -25,7 +25,7 @@ function Alarms(){
 }
 
 function getData(){
-    //console.log(hour)
+    console.log(hour)
     return new Promise(async(resolve, reject) => {
         try {
             const data = await connection('tbl_medcadastrado')
