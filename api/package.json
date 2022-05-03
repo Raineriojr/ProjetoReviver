@@ -20,6 +20,7 @@
     "googleapis": "^84.0.0",
     "knex": "^0.95.15",
     "later": "^1.2.0",
+    "moment": "^2.29.3",
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.1",
     "schedulejs": "^0.6.3"

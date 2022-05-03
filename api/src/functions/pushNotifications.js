@@ -1,5 +1,6 @@
 const connection = require('../database/connection');
 const later = require("later");
+const moment = require('moment');
 const Notification = require('./notifications');
 
 let hour = '';
@@ -9,7 +10,8 @@ function pushNotifications(){
     t = later.setInterval(callData, sched);
 
     function callData() {
-        hour = new Date().toTimeString().split(":")[0]+':'+new Date().toTimeString().split(":")[1]
+        //hour = new Date().toTimeString().split(":")[0]+':'+new Date().toTimeString().split(":")[1]
+        hour = moment().format('HH:mm')
         Alarms();
     }
 };
