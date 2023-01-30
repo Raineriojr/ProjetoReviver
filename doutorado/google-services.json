@@ -1,33 +1,34 @@
+/*Alterar para suas configurações*/
 {
   "project_info": {
-    "project_number": "113312675219",
-    "project_id": "reviver21",
-    "storage_bucket": "reviver21.appspot.com"
+    "project_number": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:113312675219:android:921e2a7473a4367de1e466",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.unifap.reviver"
+          "package_name": ""
         }
       },
       "oauth_client": [
         {
-          "client_id": "113312675219-ck0q4qum94tgp9rmod9qnee0u50lalun.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDt1kzEeNkchIz42RrkRAlbs5zYC-YLves"
+          "current_key": ""
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "113312675219-ck0q4qum94tgp9rmod9qnee0u50lalun.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]
